@@ -1,0 +1,590 @@
+{
+  "video_id": "demo-all-types",
+  "title": "كل أنواع الأسئلة",
+  "points_per_question": 10,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "text": "مين الحيوان اللي بنسمّيه ملك الغابة؟",
+      "options": [
+        {
+          "id": "a",
+          "image": "elephant",
+          "emoji": "🐘",
+          "text": "الفيل"
+        },
+        {
+          "id": "b",
+          "image": "lion",
+          "emoji": "🦁",
+          "text": "الأسد"
+        },
+        {
+          "id": "c",
+          "image": "monkey",
+          "emoji": "🐵",
+          "text": "القرد"
+        },
+        {
+          "id": "d",
+          "image": "giraffe",
+          "emoji": "🦒",
+          "text": "الزرافة"
+        }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "q2",
+      "type": "image_choice",
+      "text": "اختار الحيوان اللي بيعيش في البحر",
+      "options": [
+        {
+          "id": "a",
+          "image": "camel",
+          "emoji": "🐫",
+          "text": "جمل"
+        },
+        {
+          "id": "b",
+          "image": "rooster",
+          "emoji": "🐓",
+          "text": "ديك"
+        },
+        {
+          "id": "c",
+          "image": "dolphin",
+          "emoji": "🐬",
+          "text": "دلفين"
+        },
+        {
+          "id": "d",
+          "image": "elephant",
+          "emoji": "🐘",
+          "text": "فيل"
+        }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "q3",
+      "type": "true_false",
+      "text": "الزرافة رقبتها طويلة جدًا",
+      "image": "giraffe",
+      "emoji": "🦒",
+      "answer": true
+    },
+    {
+      "id": "q4",
+      "type": "ordering",
+      "text": "رتّب الحيوانات من الأصغر للأكبر",
+      "items": [
+        {
+          "id": "mouse",
+          "image": "mouse",
+          "emoji": "🐭",
+          "text": "فأر"
+        },
+        {
+          "id": "cat",
+          "image": "cat",
+          "emoji": "🐱",
+          "text": "قطة"
+        },
+        {
+          "id": "horse",
+          "image": "horse",
+          "emoji": "🐴",
+          "text": "حصان"
+        },
+        {
+          "id": "elephant",
+          "image": "elephant",
+          "emoji": "🐘",
+          "text": "فيل"
+        }
+      ],
+      "answer": [
+        "mouse",
+        "cat",
+        "horse",
+        "elephant"
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "matching",
+      "text": "وصّل كل حيوان بالمكان اللي بيعيش فيه",
+      "pairs": [
+        {
+          "left": {
+            "id": "bee",
+            "image": "bee",
+            "emoji": "🐝",
+            "text": "نحلة"
+          },
+          "right": {
+            "id": "hive",
+            "image": "hive",
+            "emoji": "🍯",
+            "text": "خلية"
+          }
+        },
+        {
+          "left": {
+            "id": "bird",
+            "image": "bird",
+            "emoji": "🐦",
+            "text": "عصفور"
+          },
+          "right": {
+            "id": "tree",
+            "image": "tree",
+            "emoji": "🌳",
+            "text": "شجرة"
+          }
+        },
+        {
+          "left": {
+            "id": "fish",
+            "image": "fish",
+            "emoji": "🐟",
+            "text": "سمكة"
+          },
+          "right": {
+            "id": "sea",
+            "image": "sea",
+            "emoji": "🌊",
+            "text": "بحر"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "shadow",
+      "text": "مين صاحب الضل ده؟",
+      "options": [
+        {
+          "id": "a",
+          "image": "monkey",
+          "emoji": "🐵",
+          "text": "قرد"
+        },
+        {
+          "id": "b",
+          "image": "elephant",
+          "emoji": "🐘",
+          "text": "فيل"
+        },
+        {
+          "id": "c",
+          "image": "cat",
+          "emoji": "🐱",
+          "text": "قطة"
+        },
+        {
+          "id": "d",
+          "image": "horse",
+          "emoji": "🐴",
+          "text": "حصان"
+        }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "q7",
+      "type": "multi_select",
+      "text": "اختار كل الحيوانات اللي بتعيش في البحر",
+      "options": [
+        {
+          "id": "a",
+          "image": "dolphin",
+          "emoji": "🐬",
+          "text": "دلفين"
+        },
+        {
+          "id": "b",
+          "image": "lion",
+          "emoji": "🦁",
+          "text": "أسد"
+        },
+        {
+          "id": "c",
+          "image": "fish",
+          "emoji": "🐟",
+          "text": "سمكة"
+        },
+        {
+          "id": "d",
+          "image": "rabbit",
+          "emoji": "🐰",
+          "text": "أرنب"
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "fill_blank",
+      "text": "كمّل الجملة",
+      "sentence": "النحلة بتعمل ___",
+      "image": "bee",
+      "options": [
+        {
+          "id": "a",
+          "text": "لبن"
+        },
+        {
+          "id": "b",
+          "text": "عسل"
+        },
+        {
+          "id": "c",
+          "text": "بيض"
+        }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": "q9",
+      "type": "categorize",
+      "text": "حطّ كل حيوان في المكان اللي بيعيش فيه",
+      "categories": [
+        {
+          "id": "sea",
+          "image": "sea",
+          "text": "في البحر"
+        },
+        {
+          "id": "land",
+          "image": "tree",
+          "text": "على الأرض"
+        }
+      ],
+      "items": [
+        {
+          "id": "dolphin",
+          "image": "dolphin",
+          "text": "دلفين",
+          "category": "sea"
+        },
+        {
+          "id": "fish",
+          "image": "fish",
+          "text": "سمكة",
+          "category": "sea"
+        },
+        {
+          "id": "lion",
+          "image": "lion",
+          "text": "أسد",
+          "category": "land"
+        },
+        {
+          "id": "rabbit",
+          "image": "rabbit",
+          "text": "أرنب",
+          "category": "land"
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "spelling",
+      "text": "رتّب الحروف واكتب اسم الحيوان",
+      "word": "أسد",
+      "image": "lion"
+    },
+    {
+      "id": "q11",
+      "type": "slider",
+      "text": "الزرافة طولها كام متر تقريباً؟",
+      "image": "giraffe",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "answer": 5,
+      "tolerance": 1,
+      "unit": "متر"
+    },
+    {
+      "id": "q12",
+      "type": "image_choice",
+      "text": "مين مش زي الباقيين؟",
+      "options": [
+        {
+          "id": "a",
+          "image": "bee",
+          "emoji": "🐝",
+          "text": "نحلة"
+        },
+        {
+          "id": "b",
+          "image": "bird",
+          "emoji": "🐦",
+          "text": "عصفور"
+        },
+        {
+          "id": "c",
+          "image": "elephant",
+          "emoji": "🐘",
+          "text": "فيل"
+        },
+        {
+          "id": "d",
+          "image": "owl",
+          "emoji": "🦉",
+          "text": "بومة"
+        }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": "q13",
+      "type": "fill_blank",
+      "text": "عدّ السمك اللي في الصورة",
+      "sentence": "في الصورة ___ سمكات",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        }
+      ],
+      "answer": "b",
+      "image": "fish*4"
+    },
+    {
+      "id": "q14",
+      "type": "ordering",
+      "text": "رتّب الكلمات عشان تعمل جملة",
+      "items": [
+        {
+          "id": "bee",
+          "text": "النحلة"
+        },
+        {
+          "id": "makes",
+          "text": "بتعمل"
+        },
+        {
+          "id": "honey",
+          "text": "عسل"
+        }
+      ],
+      "answer": [
+        "bee",
+        "makes",
+        "honey"
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "fill_blank",
+      "text": "لقيت عصفور واقع من العش، تعمل إيه؟",
+      "sentence": "لازم ___",
+      "image": "bird",
+      "emoji": "🐦",
+      "options": [
+        {
+          "id": "a",
+          "text": "أنادي بابا أو ماما"
+        },
+        {
+          "id": "b",
+          "text": "أسيبه وأمشي"
+        },
+        {
+          "id": "c",
+          "text": "ألعب بيه"
+        }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "q16",
+      "type": "hotspot",
+      "text": "دوس على خرطوم الفيل",
+      "image": "elephant",
+      "target": {
+        "x": 0.4,
+        "y": 0.58,
+        "w": 0.27,
+        "h": 0.34
+      }
+    },
+    {
+      "id": "q17",
+      "type": "sound",
+      "text": "اسمع الصوت: مين صاحبه؟",
+      "sound": "animal_lion",
+      "options": [
+        {
+          "id": "a",
+          "image": "lion",
+          "text": "أسد"
+        },
+        {
+          "id": "b",
+          "image": "cat",
+          "text": "قطة"
+        },
+        {
+          "id": "c",
+          "image": "bee",
+          "text": "نحلة"
+        },
+        {
+          "id": "d",
+          "image": "bird",
+          "text": "عصفور"
+        }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": "q18",
+      "type": "puzzle",
+      "text": "ركّب صورة الأسد",
+      "image": "lion",
+      "rows": 2,
+      "cols": 3
+    },
+    {
+      "id": "q19",
+      "type": "spot_difference",
+      "text": "لاقي 3 اختلافات بين الصورتين",
+      "items": [
+        {
+          "image": "tree",
+          "x": 0.18,
+          "y": 0.42,
+          "size": 0.34
+        },
+        {
+          "image": "turtle",
+          "x": 0.84,
+          "y": 0.82,
+          "size": 0.18
+        }
+      ],
+      "differences": [
+        {
+          "x": 0.8,
+          "y": 0.2,
+          "size": 0.2,
+          "left": "sun",
+          "right": "cloud"
+        },
+        {
+          "x": 0.44,
+          "y": 0.2,
+          "size": 0.14,
+          "left": "bird"
+        },
+        {
+          "x": 0.5,
+          "y": 0.74,
+          "size": 0.24,
+          "left": "rabbit",
+          "right": "cat"
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "maze",
+      "text": "وصّل النحلة للخلية",
+      "grid": [
+        "S.#...",
+        "#.#.#.",
+        "....#.",
+        ".##.#.",
+        "..#...",
+        "#..##G"
+      ],
+      "start_image": "bee",
+      "goal_image": "hive"
+    },
+    {
+      "id": "q21",
+      "type": "coloring",
+      "text": "لوّن البطريق بألوانه الحقيقية",
+      "palette": [
+        "#2F3D5A",
+        "#FDFDFD",
+        "#FF9F2E",
+        "#4FB0FF"
+      ],
+      "regions": [
+        {
+          "id": "foot_l",
+          "path": "M64.00 184.00A16 8 0 1 0 96.00 184.00A16 8 0 1 0 64.00 184.00Z",
+          "answer": "#FF9F2E"
+        },
+        {
+          "id": "foot_r",
+          "path": "M104.00 184.00A16 8 0 1 0 136.00 184.00A16 8 0 1 0 104.00 184.00Z",
+          "answer": "#FF9F2E"
+        },
+        {
+          "id": "wing_l",
+          "path": "M58.31 86.17A36 14 110 1 0 33.69 153.83A36 14 110 1 0 58.31 86.17Z",
+          "answer": "#2F3D5A"
+        },
+        {
+          "id": "wing_r",
+          "path": "M141.69 86.17A36 14 70 1 0 166.31 153.83A36 14 70 1 0 141.69 86.17Z",
+          "answer": "#2F3D5A"
+        },
+        {
+          "id": "body",
+          "path": "M42.00 110.00A58 74 0 1 0 158.00 110.00A58 74 0 1 0 42.00 110.00Z",
+          "answer": "#2F3D5A"
+        },
+        {
+          "id": "belly",
+          "path": "M60.00 130.00A40 52 0 1 0 140.00 130.00A40 52 0 1 0 60.00 130.00Z",
+          "answer": "#FDFDFD"
+        },
+        {
+          "id": "face_l",
+          "path": "M60.00 86.00A22 22 0 1 0 104.00 86.00A22 22 0 1 0 60.00 86.00Z",
+          "color": "#FDFDFD"
+        },
+        {
+          "id": "face_r",
+          "path": "M96.00 86.00A22 22 0 1 0 140.00 86.00A22 22 0 1 0 96.00 86.00Z",
+          "color": "#FDFDFD"
+        },
+        {
+          "id": "eye_l",
+          "path": "M75.50 86.00A7.5 8.85 0 1 0 90.50 86.00A7.5 8.85 0 1 0 75.50 86.00Z",
+          "color": "#3B2A20"
+        },
+        {
+          "id": "eye_r",
+          "path": "M109.50 86.00A7.5 8.85 0 1 0 124.50 86.00A7.5 8.85 0 1 0 109.50 86.00Z",
+          "color": "#3B2A20"
+        },
+        {
+          "id": "beak",
+          "path": "M88 100Q100 94 112 100Q100 116 88 100Z",
+          "answer": "#FF9F2E"
+        }
+      ]
+    }
+  ]
+}
